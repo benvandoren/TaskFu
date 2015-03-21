@@ -1,0 +1,83 @@
+/* header */
+#head a
+{
+	text-decoration: none;
+	color:#333;
+	font-variant:small-caps;
+	font-size: 55px;
+	font-family: Chunkfive;
+}
+
+/* table display */
+#task_display
+{
+	/*text-align: center;*/
+}
+.row
+{
+}
+.cell
+{
+	padding: 10px 5px;
+	vertical-align: top;
+
+	display: inline-block;
+	margin:auto;
+}
+.checkbox
+{
+	width: 70px;
+}
+.task
+{
+	width:400px;
+}
+.task h3
+{
+	text-align: center;
+}
+.date 
+{
+	width:125px;
+}
+
+/* content */
+body
+{
+	max-width: 800px;
+	margin: auto;
+}
+.left 
+{
+	width: 400px;
+}
+.right
+{
+	text-align: right;
+}
+h1, h2, h3 
+{
+	color: #995C00;
+}
+
+/* error / success messages */
+#task_err, #date_err
+{
+	color:red;
+	font-weight: bold;
+}
+#success
+{
+	color:green;
+	font-weight: bold;
+}
+
+
+
+
+/* font import */
+@font-face 
+{
+	font-family: Chunkfive;
+	src:url(Chunkfive.otf);
+}
